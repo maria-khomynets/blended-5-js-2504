@@ -1,3 +1,8 @@
+import { handleHeaderFormSubmit } from './js/handlers';
+import { refs } from './js/refs';
+
+refs.headerForm.addEventListener('submit', handleHeaderFormSubmit);
+
 /*
   Створи список справ.
   На сторінці є два інпути які має вводиться назва і текст задачі.
